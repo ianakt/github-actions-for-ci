@@ -19,7 +19,10 @@ jobs:
   test:
     ...
 
-
+      - uses: actions/upload-artifact@master
+        with:
+          name: webpack artifacts
+          path: public/
 jobs:
   build:
 
