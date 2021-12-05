@@ -19,7 +19,7 @@ jobs:
   test:
     ...
 
-      - uses: actions/upload-artifact@main
+      - uses: actions/upload-artifact@master
         with:
     needs: build
           path: public/
